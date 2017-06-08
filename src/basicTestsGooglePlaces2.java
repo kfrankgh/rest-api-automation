@@ -13,7 +13,7 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class basicTests2 {
+public class basicTestsGooglePlaces2 {
     Properties properties = new Properties();
     @BeforeTest
     public void getData() throws IOException{

@@ -18,7 +18,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static resources.commonMethods.rawToXml;
 
-public class basicTests1 {
+public class basicTestsGooglePlaces1 {
     Properties properties = new Properties();
     @BeforeTest
     public void getData() throws IOException{
